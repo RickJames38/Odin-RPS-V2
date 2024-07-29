@@ -46,13 +46,13 @@ function displayEnd() {
     } else {
         document.querySelector(".winner").textContent = "Sorry, The Computer Won 5 Times";
     }
-    document.querySelector(".reset").computedStyleMap.display = "flex";
+    document.querySelector(".reset").style.display = "flex";
 }
 
 function displayRound(playerChoice, computerChoice, winner) {
     document.querySelector('.playerChoice').textContent = `You Chose: ${playerChoice.charAt(0).toUpperCase() + playerChoice.slice(1)}`;
     document.querySelector('.computerChoice').textContent = `You Chose: ${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}`;
-    document.querySelector('.ties').textContent = `Ties: ${ties}`;
+    document.querySelector('winner').textContent = `Round Winner: ${winner}`;
 }
 
 function tallyWins() {
@@ -100,4 +100,4 @@ function winCounter() {
     //log the winner of each round and increment the score
 }
 
-startGame();
+//startGame();
