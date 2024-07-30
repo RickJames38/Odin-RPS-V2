@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#504f4f, rgba(104, 104, 104, 0.678));
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -26,13 +26,13 @@ body {
     justify-content: space-between;
     background: rgba(255, 255, 255, 0.048);
     padding: 20px;
-    border: solid black 5px;
+    border: solid white 5px;
     border-radius: 10px;
     max-height: 90px;
   }
   img {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   }
   .pImg:hover {
     cursor: pointer;
@@ -53,10 +53,10 @@ body {
     align-items: center;
     width: 200px;
     height: 60px;
-    background-color: rgba(0, 255, 255, 0.507);
-    color: black;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: white;
     font-size: x-large;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
   }
   .reset:hover {
